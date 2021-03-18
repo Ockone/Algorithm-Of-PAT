@@ -71,6 +71,10 @@ void Change() {
     }
 }
 
+/**
+ * 依据后缀表达式，计算值
+ * @return 结果值，double型
+ */
 double Calculate()  //计算后缀表达式
 {
     double temp1, temp2;    //操作数1，操作数2
